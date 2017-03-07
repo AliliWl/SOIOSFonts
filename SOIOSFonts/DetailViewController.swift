@@ -33,9 +33,7 @@ class DetailViewController: UIViewController,UITextFieldDelegate {
         
         uiTextView.font = UIFont.init(name: fontName, size: CGFloat(sender.value))
         uiFontSizeLabel.text = "Font size is " + String(Int(sender.value))
-//        uiTextView.layoutIfNeeded()
-//        uiTextView.setNeedsDisplay()
-        uiTextView.setNeedsDisplay(CGRect(x: 15, y: 79, width: self.view.frame.size.width - 30, height: self.view.frame.size.height - 79 - 15))
+        uiTextView.text = uiTextField.text
 
     }
     @IBAction func onSubmitAction(_ sender: Any) {
@@ -44,19 +42,8 @@ class DetailViewController: UIViewController,UITextFieldDelegate {
     }
 
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        
         uiTextView.text = uiTextField.text! + string
-        
         return true
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

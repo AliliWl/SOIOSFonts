@@ -1,8 +1,8 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "83550d986733f755d2cbcabf17cbf84a"
-build_time: [542123887, 640551000]
+build_time: [542166730, 536421000]
 inputs:
   "/Users/wangli/Documents/iOS/SOIOSFonts/SOIOSFonts/SOSystemFonts.swift": [542112454, 0]
   "/Users/wangli/Documents/iOS/SOIOSFonts/SOIOSFonts/ViewController.swift": [542119834, 0]
   "/Users/wangli/Documents/iOS/SOIOSFonts/SOIOSFonts/AppDelegate.swift": [542110475, 0]
-  "/Users/wangli/Documents/iOS/SOIOSFonts/SOIOSFonts/DetailViewController.swift": [542123884, 0]
+  "/Users/wangli/Documents/iOS/SOIOSFonts/SOIOSFonts/DetailViewController.swift": [542166725, 0]
