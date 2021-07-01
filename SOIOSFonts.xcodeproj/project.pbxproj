@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		665302B3268D9F480060302A /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665302B2268D9F480060302A /* Test2.swift */; };
+		665302B5268DA36B0060302A /* Test3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665302B4268DA36B0060302A /* Test3.swift */; };
 		81617DFE1E6D6E0B00B05BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81617DFD1E6D6E0B00B05BD2 /* AppDelegate.swift */; };
 		81617E001E6D6E0B00B05BD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81617DFF1E6D6E0B00B05BD2 /* ViewController.swift */; };
 		81617E031E6D6E0B00B05BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81617E011E6D6E0B00B05BD2 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		665302B2268D9F480060302A /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
+		665302B4268DA36B0060302A /* Test3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test3.swift; sourceTree = "<group>"; };
 		81617DFA1E6D6E0B00B05BD2 /* SOIOSFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOIOSFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81617DFD1E6D6E0B00B05BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81617DFF1E6D6E0B00B05BD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				81617E2D1E6D90F700B05BD2 /* DetailViewController.swift */,
 				81617E2E1E6D90F700B05BD2 /* DetailViewController.xib */,
 				665302B2268D9F480060302A /* Test2.swift */,
+				665302B4268DA36B0060302A /* Test3.swift */,
 			);
 			path = SOIOSFonts;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				81617E2C1E6D70CE00B05BD2 /* SOSystemFonts.swift in Sources */,
 				81617E001E6D6E0B00B05BD2 /* ViewController.swift in Sources */,
 				81617DFE1E6D6E0B00B05BD2 /* AppDelegate.swift in Sources */,
+				665302B5268DA36B0060302A /* Test3.swift in Sources */,
 				665302B3268D9F480060302A /* Test2.swift in Sources */,
 				81617E2F1E6D90F700B05BD2 /* DetailViewController.swift in Sources */,
 			);
