@@ -9,4 +9,5 @@
 import Foundation
 func tprint() {
     print("test2")
+    print("test22")
 }
